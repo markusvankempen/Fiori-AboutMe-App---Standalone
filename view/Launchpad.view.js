@@ -37,7 +37,7 @@ sap.ui.jsview("mvk.view.Launchpad", {
 
         var page = new sap.m.Page({
             setShowHeader: true,
-            title: "MVK's UI5 and Fiori Playground",
+            title: "{i18n>WELCOME_TITLE}",
             footer: new sap.m.Bar({
                 contentMiddle: [new sap.m.Link("infosl", {
                     text: "Infos",
